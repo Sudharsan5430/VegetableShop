@@ -1,0 +1,13 @@
+address
+{
+    width: 180px;
+    color: #3fa34d;
+    line-height: 1.5;
+    font-style: normal;
+    flex-wrap:wrap-reverse;
+    flex-direction: row;
+}
+ul
+{
+    color: #3fa34d;
+}

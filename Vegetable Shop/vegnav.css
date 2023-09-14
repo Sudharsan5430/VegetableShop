@@ -1,0 +1,107 @@
+body
+{
+    overflow: hidden;
+}
+.navbar
+{
+    background-image:linear-gradient(90deg,#faf7f7,#ebebeb);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+}
+.nav > ul
+{
+    list-style: none;
+    overflow: hidden;
+    justify-content: flex-end;
+    display: flex;
+    margin: 0px;
+    padding: 14px 16px;
+    text-transform: uppercase;
+}
+.nav > ul > li > a
+{
+    margin: 5px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    color:#000;
+}
+.nav ul li a::after
+{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background:#078535;
+    position: absolute;
+    left: 3px;
+    bottom: -6px;
+    transition: 1s;
+}
+
+.nav ul li a:hover::after
+{
+    width: 90%;
+}
+.nav ul li a:hover
+{
+    background-color: #078535;
+    text-shadow: 3px 3px 5px rgb(109, 106, 103);
+    color: rgb(248, 248, 250);
+
+}
+nav > .logo
+{
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #078535;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.navbtn
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width:700px){
+    .navbar
+    {
+        flex-direction:column;
+        height: 120px;
+    }
+    .nav > ul
+    {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+}
+@media all and (max-width:550px){
+    .navbar
+    {
+        height: 100%;
+    }
+    .nav
+    {
+        flex-direction:column;
+    }
+    .logo
+    {
+        height: 30px;
+        width: 10px;
+    }
+    .nav ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

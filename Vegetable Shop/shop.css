@@ -1,0 +1,343 @@
+.shop {
+    height: 600vh;
+    width: 100%;
+    background-color: #fff;
+    top: 120px;
+    position: relative;
+}
+
+.logos {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.truck {
+    background-color: #f7d1cd;
+    position: relative;
+    padding: 15px;
+}
+
+.logos>.truck:hover {
+    background-color: #45de6e;
+}
+
+.fresh {
+    background-color: #bb9457;
+    position: relative;
+    padding: 5px;
+}
+
+.fresh>img {
+    top: 10px;
+    position: relative;
+}
+
+.para2 {
+    top: 58px;
+    position: relative;
+}
+
+.logos>.fresh:hover {
+    background-color: #45de6e;
+}
+
+.quality {
+    background-color: rgb(168, 223, 240);
+    position: relative;
+    padding: 7px;
+}
+
+.para3 {
+    top: .5px;
+    position: relative;
+}
+
+.logos>.quality:hover {
+    background-color: #45de6e;
+}
+
+.support {
+    background-color: rgb(238, 212, 164);
+}
+
+.para4 {
+    top: 45px;
+    position: relative;
+}
+
+.logos>.support:hover {
+    background-color: #3fa34d;
+}
+
+
+.main_frame
+{
+    height: 800px;
+    width: 100%;
+    margin-top: 200px;     
+    display: flex;
+    flex-wrap: wrap;           
+}
+.sub_frame1
+{
+    height: 330px;
+    width: 450px;
+    background-image: url(./images/veg1.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.sub_frame1 > p
+{
+    font-size: 1.5rem;
+    background-color: #3fa34d;
+    color: #fff;
+    height: 30px;
+    padding: 10px;
+    margin: 0px;
+}
+.sub_frame2 
+{
+    height: 330px;
+    width: 433px;
+}
+.sub_frame2 > h1
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
+    justify-content: center;
+    color: #3fa34d;
+    display: flex;
+    margin: 0px;
+}
+.sub_frame2 > p
+{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+    color: #6c757d;
+}
+button
+{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #3fa34d;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    margin-left: 175px;
+}
+button:hover{
+    cursor: pointer;
+}
+.sub_frame3
+{
+    height: 330px;
+    width: 450px;
+    background-image: url(./images/veg3.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.sub_frame3 > p
+{
+    font-size: 1.5rem;
+    background-color: #3fa34d;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+
+}
+.sub_frame4
+{
+    height: 330px;
+    width: 450px;
+    background-image: url(./images/veg2.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.sub_frame4 > p
+{
+    font-size: 1.5rem;
+    background-color: #3fa34d;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+.sub_frame5
+{
+    height: 330px;
+    width: 393px;
+    background-image: url(./images/veg5.jpg);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sub_frame6
+{
+    height: 330px;
+    width: 450px;
+    background-image: url(./images/veg4.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.sub_frame6 > p
+{
+    font-size: 1.5rem;
+    background-color: #3fa34d;
+    color: #fff;
+    height: 30px;
+    width: 110px;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+h4
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #3fa34d;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    word-spacing: 7px;
+    text-align: center;
+}
+h1
+{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 2.8rem;
+}
+.products p
+{
+    font-size: 1rem;
+    margin-top: -30px;
+    font-family: 'DM Sans', sans-serif;
+    color: #6c757d;
+    text-align: center;
+} 
+.order2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50PX;
+}  
+.order2:hover{
+    cursor: pointer;
+}
+.product1{
+    border: 1px solid rgb(190, 182, 182);
+}
+.order2 > .product1 > img{
+    height: 250px;
+    width: 250px;
+    /* margin-top: 0px; */
+}
+.product1 > .offer{
+    background-color: #3fa34d;
+    width: 33px;
+    margin-top: 0px;
+}
+.detail1{
+    text-align: center;
+    margin-top: -20px;
+}
+.detail2{
+    text-align: center;
+    /* margin-top: -20px; */
+}
+.detail3{
+    text-align: center;
+    margin-top: -40px;
+}
+.product2{
+    border: 1px solid rgb(190, 182, 182);
+}
+.order2 > .product2 > img{
+    height: 250px;
+    width: 250px;
+}
+@media all and (max-width:700px)
+{
+    .main_frame
+    {
+        justify-content: center;
+    }
+    .sub_frame3
+    {
+        margin-bottom: 25px;
+    }
+    .sub_frame4
+    {
+        margin-bottom: 25px;
+    }
+    .sub_frame5
+    {
+        margin-bottom: 25px;
+        width: 450px;
+    }
+    .order2{
+        /* background-color: #3fa34d; */
+        margin-top: 1200px;
+    }
+}
+
+@media all and (max-width:550px) {
+    .logos {
+        width: 160px;
+        height: 30%;
+        flex-direction: column;
+    }
+
+    .para2 {
+        position: relative;
+        top: 7px;
+    }
+
+    .para4 {
+        position: relative;
+        top: 3px;
+    }
+
+    header {
+        top: 30px;
+    }
+
+    h1 {
+        top: 0px;
+    }
+
+    .navbtn>button
+    {
+        top: -15px;
+    }
+    .main_frame
+    {
+        justify-content: center;
+    }
+    .sub_frame3
+    {
+        margin-bottom: 25px;
+    }
+    .sub_frame4
+    {
+        margin-bottom: 25px;
+    }
+    .sub_frame5
+    {
+        margin-bottom: 25px;
+        width: 450px;
+    }
+}

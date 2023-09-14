@@ -1,0 +1,59 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#home
+{
+    min-height: 100vh;
+    width: 100% ;
+    background-image: url('./images/veg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.main_frame
+{   
+    height: 100vh;
+    font-weight: 900;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para1
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 6rem;
+    text-align: center;
+    margin: 10px 0px;
+}
+.para2
+{
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0px;
+}
+button
+{
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fdfbfb;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a6925;
+}
+@media all and (max-width:550px)
+{
+    .para1
+    {
+        font-size: 4rem;
+    }
+}
